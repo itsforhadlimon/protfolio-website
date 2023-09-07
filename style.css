@@ -1,15 +1,18 @@
 body{
     font-family: 'Oswald', sans-serif;
+    margin: 0;
 }
 .name{
     color: blue;
 }
 .top{
     width: 50%;
+    padding: 10px;
 }
 section{
     display: flex;
-    padding: 5px;
+    padding: 10px;
+    margin-bottom: 50px;
 }
 .top img{
     width: 100%;
