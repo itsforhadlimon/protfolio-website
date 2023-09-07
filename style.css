@@ -1,15 +1,15 @@
 body{
     font-family: 'Oswald', sans-serif;
-    margin: 0;
+    
 }
 .name{
-    color: blue;
+    color: green;
 }
 .top{
     width: 50%;
     padding: 10px;
 }
-section{
+.banner{
     display: flex;
     padding: 10px;
     margin-bottom: 50px;
@@ -24,4 +24,35 @@ section{
     border-radius: 5px;
     font-weight: 700;
     color: black;
+}
+h3{
+    color: green;
+    font-weight: 700;
+}
+.exper{
+    display: flex;
+    margin-bottom: 100px;
+}
+.show{
+    width: 40%;
+    margin-left: 5%;
+    nav-right: 5%;
+    box-shadow: 10px 10px 40px green;
+    padding: 10px;
+}
+#baby{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, green);
+    border-image-slice: 1;
+    border-radius: 5px;
+}
+#full{
+    border-left: 10px solid;
+    border-image: linear-gradient(green, red);
+    border-image-slice: 1;
+    border-radius: 5px;
+
+}
+footer p{
+    text-align: center;
 }
