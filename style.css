@@ -1,0 +1,24 @@
+body{
+    font-family: 'Oswald', sans-serif;
+}
+.name{
+    color: blue;
+}
+.top{
+    width: 50%;
+}
+section{
+    display: flex;
+    padding: 5px;
+}
+.top img{
+    width: 100%;
+}
+.hire{
+    text-decoration: none;
+    background-image: linear-gradient(green, blue);
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: black;
+}
